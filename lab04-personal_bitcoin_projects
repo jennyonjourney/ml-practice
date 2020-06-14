@@ -78,3 +78,4 @@ for step in range(2001):
         print(step, "Cost: ", cost_val, "\nPrediction:\n", hy_val)
 coord.request_stop()
 coord.join(threads)
+
